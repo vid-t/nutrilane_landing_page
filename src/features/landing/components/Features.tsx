@@ -10,8 +10,8 @@ const features = [
   {
     id: "02",
     icon: BarChart3,
-    title: "Publication Data Feeds",
-    description: "Turn your exisiting publication data into pre-trade market intelligence. All major vendors supported.",
+    title: "Market Data Feeds",
+    description: "Turn your exisiting market data into pre-trade intelligence. All major vendors supported.",
   },
   {
     id: "03",
@@ -23,13 +23,13 @@ const features = [
     id: "04",
     icon: SquarePlus,
     title: "Custom Caluclations",
-    description: "Combine publication data with in-house supply chain costs to spot opportunities. Without leaving WhatsApp.",
+    description: "Combine market data with in-house supply chain costs to spot opportunities. Without leaving WhatsApp.",
   },
   {
     id: "05",
     icon: Globe2,
     title: "Tailored to Your Market",
-    description: "Find the data points you need. Profercy, Argus, Infofert, CRU, Fertecon and more. All summarized in one place. ",
+    description: "Find the data points you need for your trades. All summarized in one place. ",
   },
   {
     id: "06",

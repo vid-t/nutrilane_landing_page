@@ -1,6 +1,6 @@
 import { Button } from "@/shared/components/ui/button";
 import { ArrowRight, Play, CheckCircle2 } from "lucide-react";
-import whatsappScreenshot from "@/assets/Untitled design.PNG";
+import whatsappScreenshot from "@/assets/WhatsApp_Demo.png";
 
 const Hero = () => {
   return (
@@ -47,7 +47,7 @@ const Hero = () => {
 
         {/* Feature Pills */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-          {['Real-time PRA Data', 'Deal Auditing', 'Full History Overview'].map((feature) => (
+          {['Fast Data Access', 'Deal Auditing', 'Full History Overview'].map((feature) => (
             <div key={feature} className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary/50 border border-border">
               <CheckCircle2 className="h-3.5 w-3.5 text-accent" />
               <span className="font-mono text-xs text-muted-foreground">{feature}</span>
@@ -124,7 +124,7 @@ const Hero = () => {
                         volume: "3,500 MT",
                         price: "$412.00/MT",
                         benchmark: "$406–$408/MT",
-                        delta: "+$4.00/MT vs. Argus NPKs",
+                        delta: "+$4.00/MT vs. market",
                         verdict: "Above market",
                         verdictTone: "text-yellow-500",
                       },
