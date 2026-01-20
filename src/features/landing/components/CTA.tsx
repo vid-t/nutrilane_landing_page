@@ -36,7 +36,7 @@ const CTA = () => {
 
           {/* CTA Button */}
           <Button variant="default" size="lg" className="font-mono">
-            Book Discovery Call
+            Book Demo
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>

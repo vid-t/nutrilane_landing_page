@@ -41,10 +41,6 @@ const Hero = () => {
                 Book Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline" size="lg" className="font-mono text-sm">
-                <Play className="mr-2 h-4 w-4" />
-                Watch Demo
-              </Button>
             </div>
           </div>
         </div>
