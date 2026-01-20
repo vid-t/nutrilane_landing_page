@@ -1,6 +1,6 @@
 import { Button } from "@/shared/components/ui/button";
 import { ArrowRight, Play, CheckCircle2 } from "lucide-react";
-import whatsappScreenshot from "@/assets/WhatsApp_Demo.png";
+import whatsappScreenshot from "@/assets/Whatsapp_Demo.png";
 
 const Hero = () => {
   return (
