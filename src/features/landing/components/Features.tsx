@@ -10,7 +10,7 @@ const features = [
   {
     id: "02",
     icon: BarChart3,
-    title: "Market Data Feeds",
+    title: "Market Data Integration",
     description: "Turn your exisiting market data into pre-trade intelligence. All major vendors supported.",
   },
   {

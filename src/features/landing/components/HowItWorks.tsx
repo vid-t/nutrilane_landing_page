@@ -5,7 +5,7 @@ const steps = [
     id: "01",
     icon: Settings,
     title: "Architecture Setup",
-    description: "We integrate your publication data in combination with in-house data in a custom solution. ",
+    description: "We integrate your market data in combination with in-house data for your custom solution. ",
   },
   {
     id: "02",
@@ -17,7 +17,7 @@ const steps = [
     id: "03",
     icon: LineChart,
     title: "Trade & Audit",
-    description: "Benchmark quotes, gain insights and analyze history of your negotiations.",
+    description: "Trade faster, benchmark quotes, gain insights and analyze your negotiations.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import { Button } from "@/shared/components/ui/button";
-import { Terminal } from "lucide-react";
 import { Link } from "react-router-dom";
+import logoHighRes from "@/assets/Logo high res copy.png";
 
 const Navbar = () => {
   return (
@@ -9,8 +9,12 @@ const Navbar = () => {
         <div className="relative flex h-14 items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-primary">
-              <Terminal className="h-4 w-4 text-primary-foreground" />
+            <div className="flex h-8 w-8 items-center justify-center overflow-hidden">
+              <img
+                src={logoHighRes}
+                alt="Nutrilane logo"
+                className="h-full w-full object-contain"
+              />
             </div>
             <span className="font-mono text-lg font-semibold tracking-tight">
               NUTRILANE

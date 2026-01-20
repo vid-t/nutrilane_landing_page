@@ -192,7 +192,7 @@ const Hero = () => {
                   className="w-full h-auto rounded-[2.2rem]"
                 />
                 <p className="mt-5 text-center text-m text-muted-foreground">
-                  Access industry-leading publication data.
+                  Access market and proprietary data. 
                   <br />
                   Now directly in WhatsApp
                 </p>
