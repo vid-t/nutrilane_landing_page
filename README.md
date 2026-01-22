@@ -12,6 +12,7 @@ Marketing landing page for Nutrilane - a fertilizer commodity trading intelligen
 
 ## Project Structure
 
+```
 src/
 ├── App.tsx                         # App entry with router
 ├── main.tsx                        # React entry point
