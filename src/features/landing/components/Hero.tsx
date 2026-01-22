@@ -37,9 +37,11 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-3 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              <Button variant="default" size="lg" className="font-mono text-sm">
-                Book Demo
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button asChild variant="default" size="lg" className="font-mono text-sm">
+                <a href="https://cal.com/vid-tominec-aufcpw">
+                  Book Demo
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </Button>
             </div>
           </div>

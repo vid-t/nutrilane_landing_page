@@ -35,9 +35,11 @@ const CTA = () => {
           </div>
 
           {/* CTA Button */}
-          <Button variant="default" size="lg" className="font-mono">
-            Book Demo
-            <ArrowRight className="ml-2 h-4 w-4" />
+          <Button asChild variant="default" size="lg" className="font-mono">
+            <a href="https://cal.com/vid-tominec-aufcpw">
+              Book Demo
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
           </Button>
         </div>
       </div>
