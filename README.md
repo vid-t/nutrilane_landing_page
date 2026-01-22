@@ -1,6 +1,6 @@
 # Nutrilane Landing Page
 
-Marketing landing page for Nutrilane - a fertilizer commodity trading intelligence platform.
+Marketing landing page for Nutrilane - a fertilizer commodity trading intelligence integration company.
 
 ## Tech Stack
 
@@ -10,48 +10,8 @@ Marketing landing page for Nutrilane - a fertilizer commodity trading intelligen
 - **UI Components**: shadcn/ui (Radix UI primitives)
 - **Icons**: Lucide React
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run linting
-npm run lint
-```
-
-The development server runs on `http://localhost:8080`.
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push this repository to GitHub
-2. Import the repository in [Vercel](https://vercel.com)
-3. Vercel will auto-detect Vite and deploy
-
-The `vercel.json` is pre-configured for SPA routing.
-
-### Manual Build
-
-```bash
-npm run build
-```
-
-The build output will be in the `dist/` directory. Deploy this to any static hosting provider.
-
 ## Project Structure
 
-```
 src/
 ├── App.tsx                         # App entry with router
 ├── main.tsx                        # React entry point
