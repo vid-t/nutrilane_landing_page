@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-dark" />
       <div className="absolute inset-0 dot-pattern opacity-30" />
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[600px] bg-gradient-glow opacity-70" />
+      <div className="absolute inset-0 bg-gradient-glow opacity-70 pointer-events-none" />
       
       {/* Grid overlay at bottom */}
       <div className="absolute bottom-0 left-0 right-0 h-64 grid-pattern opacity-20" />
@@ -143,7 +143,7 @@ const Hero = () => {
                       },
                     ].map((deal) => (
                       <div key={deal.title} className="rounded border border-border/60 bg-muted/20 p-3">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
                           <div className="flex items-center gap-3">
                             <p className="text-sm font-semibold">{deal.title}</p>
                             <span className={`text-[13px] ${deal.verdictTone}`}>{deal.verdict}</span>
@@ -156,7 +156,7 @@ const Hero = () => {
                             <ArrowRight className="h-3 w-3" />
                           </button>
                         </div>
-                        <div className="grid grid-cols-2 gap-2 text-[13px] text-muted-foreground">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[13px] text-muted-foreground">
                           <div>
                             <p className="uppercase tracking-wide text-[12px]">Product</p>
                             <p className="text-sm text-foreground">{deal.product}</p>
@@ -174,7 +174,7 @@ const Hero = () => {
                             <p className="text-sm text-foreground">{deal.price}</p>
                           </div>
                         </div>
-                        <div className="mt-2 flex items-center justify-between text-[13px]">
+                        <div className="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 text-[13px]">
                           <span className="text-muted-foreground">Benchmark: {deal.benchmark}</span>
                           <span className="text-foreground">{deal.delta}</span>
                         </div>
