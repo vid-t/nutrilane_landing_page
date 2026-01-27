@@ -253,11 +253,13 @@
   }
 
   .animate-fade-in {
-    animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: fadeIn 2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    opacity: 0;
   }
 
   .animate-slide-up {
-    animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    animation: popIn 2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    opacity: 0;
   }
 
   .animate-glow {
@@ -299,22 +301,37 @@
 }
 
 @keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
+    filter: blur(2px);
   }
-  to {
+  100% {
     opacity: 1;
+    filter: blur(0);
   }
 }
 
 @keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(24px) scale(0.96);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
   }
 }
 
